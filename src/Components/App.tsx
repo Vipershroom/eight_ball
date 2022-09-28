@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from './Header';
+import './styles/App.scss'
 
 function App() {
   return (
-    <div>
+    <div className='main'>
       <Header />
       <h1>
         Hello, World!
