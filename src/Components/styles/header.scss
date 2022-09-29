@@ -1,19 +1,16 @@
 .header {
     display: flex;
     justify-content: center;
-    align-items: stretch;
-    
+    align-items: center;
+    padding-bottom: 25px;
+    flex-direction: column;
 
     img {
-        width: 50%;
-        padding-right: 15px;
+        width: 12vw;
     }
     
     h2 {
-        display: flex;
-        align-items: center;
         font-size: 3.5rem;
-        border: 2px solid black;
         width: 100%;
     }
     

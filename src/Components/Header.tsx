@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='header'>
         <img src={Image} alt="eight ball" />
-        <h2>8 Ball</h2>
+        <h2>8 Ball Generator</h2>
     </div>
   )
 }

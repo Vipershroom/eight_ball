@@ -7,9 +7,15 @@ function App() {
     <div className='main'>
       <Header />
       <h1>
-        Hello, World!
+        Welcome to 8 Ball
       </h1>
-    </div>
+      <div className="prompt">
+        <h2>Please ask a question!</h2>
+        <div className="field">
+          <input type="text" name="" id="inp" />
+        </div>
+            </div>
+      </div>
   );
 }
 
